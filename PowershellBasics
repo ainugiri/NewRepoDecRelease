@@ -1,0 +1,74 @@
+V2 
+---------->
+
+
+<-----------
+
+V3 
+---------->
+
+
+<-----------
+Test file for Powershell Learning
+
+Course - Powershell
+*********************
+
+PowerShell is an object-based command line interface. 
+Task automation platform built on .net framework. 
+
+
+PowerShell Version  its features 
+*************************************
+Version - 1.0 
+------------------------- 
+Released in Nov 2006 
+Released with  
+	 Windows XP, SP2 
+	 Windows Server 2003  
+	 Windows Vista 
+
+Basic PowerShell commands 
+
+**************************** 
+Check PowerShell version - >> $PSVersionTable 
+		>> $PSVersionTable.PSVersion 
+
+ CmdLet structure & Help 
+************************************************ 
+	Lightweight commands performs in single function. 
+	It uses format i.e. Verb-Prefix-singular-form 
+	Usually performs an action & returns .NET object for next command. 
+	Are instances of .NET classes and are not associated with standalone executables. 
+
+ 
+
+ 
+
+Cmdlets, functions 
+******************** 
+Cmdlet    - native powershell commands 
+Functions - set of powershell commands that performs repetitive tasks. 
+Get-psdrive: drives used by Powershell. 
+
+
+Modules: 
+******** 
+Modules in powershell is on 2 states 
+	Loaded state 
+	Unloaded state 
+
+Providers 
+********* 
+Providers are .NET program that allows users to work with data stores in PowerShell. 
+Similar to mounted disk drives / USB Pen drives. 
+
+Check the listed providers 
+>> get-psprovders
+
+Import a provider 
+>> import-module activedirectory 
+
+Group-object: 
+List processes that have count > 5 
+PS C:\Users> Get-Process | Group-Object Name | Where-Object Count -GE 5 
