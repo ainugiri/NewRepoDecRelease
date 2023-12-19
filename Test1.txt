@@ -31,4 +31,9 @@ new change: done by vetrivel
 C:\GitHub\Dec2023_V1
 C:\GitHub\Dec2023_V1
 C:\GitHub\Dec2023_V1
-C:\GitHub\Dec2023_V1
+C:\GitHub\Dec2023_V1PowershellBasics
+README.md
+Test1.txt
+Test2.txt
+f2
+index.html
